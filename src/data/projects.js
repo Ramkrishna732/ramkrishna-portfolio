@@ -20,6 +20,7 @@ export const ProjectData = [
       "ReactJs",
       "NodeJs",
       "Express",
+      "Zomato API"
     ],
     // demo: "",
     github: "https://github.com/Ramkrishna732/restaturantfinder",
