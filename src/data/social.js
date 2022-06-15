@@ -15,7 +15,7 @@ export const SocialData = [
     link: "https://www.linkedin.com/in/ramkrishna-maurya-5578131ab/",
   },
   {
-    platform: "Facebook",
+    platform: "Gmail",
     icon: require("../assets/icons/gmail.png"),
     link: "mailto:ramkrishnamaurya732@gmail.com",
   },
@@ -24,4 +24,5 @@ export const SocialData = [
     icon: require("../assets/icons/twitter.png"),
     link: "https://twitter.com/Ramkrishna_732?t=4-AjqdjRBCM50-moM7wnIw&s=08",
   },
+
 ];
