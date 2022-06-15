@@ -2,21 +2,23 @@ export const SkillsData = [
   {
     type: "Frontend",
     list: [
-      {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>,
-      },
+      
       {
         name: "Html",
         icon: <i class="devicon-html5-plain colored"></i>,
+      },
+
+      {
+        name: "Css",
+        icon: <i class="devicon-css3-plain colored"></i>,
       },
       {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>,
       },
       {
-        name: "Css",
-        icon: <i class="devicon-css3-plain colored"></i>,
+        name: "ReactJS",
+        icon: <i class="devicon-react-original colored"></i>,
       },
     ],
   },
@@ -30,6 +32,10 @@ export const SkillsData = [
       {
         name: "NodeJS",
         icon: <i class="devicon-nodejs-plain colored"></i>,
+      },
+      {
+        name: "Express",
+        icon: <i class="devicon-express-original colored"></i>,
       },
     ],
   },
