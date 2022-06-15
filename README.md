@@ -44,8 +44,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 
-# for pushing
-# git push  origin feat/setup_workflow
 
 
 ## Learn More
