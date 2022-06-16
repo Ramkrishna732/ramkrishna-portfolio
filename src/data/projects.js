@@ -24,7 +24,20 @@ export const ProjectData = [
     ],
     // demo: "",
     github: "https://github.com/Ramkrishna732/restaturantfinder",
-    // image:
-    //   "",
+    image: require("../assets/image/restaurant.png"),
+  
+  },
+  {
+    id: 3,
+    title: "ToDo-App",
+    about:
+      "It is a ToDo App that generally used to maintain our day-to-day tasks or list everything that we have to do.It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed.",
+    tags: [
+      "ReactJs"
+      
+    ],
+     demo: "https://todays-plans.netlify.app/",
+    github: "https://github.com/Ramkrishna732/todolist",
+    image: require("../assets/image/todoapp.png"),
   },
 ];
