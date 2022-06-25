@@ -6,7 +6,7 @@ export const WorkData = [
     dateEnd: "20-06-2021",
     // companyLogo:
     //   "",
-    work: "Developed a website from scratch Learned about Web development skill using HTML, CSS, JavaScript, PHP.",
+    work: "Developed a website from scratch Learned about Web development skill using HTML,CSS.JavaScript,PHP.",
   },
   {
     company: "Oasis InfoByte",
@@ -15,6 +15,6 @@ export const WorkData = [
     dateEnd: "28-04-2022",
     // companyLogo:
     //   "",
-    work: "It is a Task based internship,Learned about Web development skill using HTML, CSS, JavaScript.",
+    work: "It is a Task based internship,Learned about Web development skill using HTML,CSS.JavaScript.",
   },
 ];
