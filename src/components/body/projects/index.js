@@ -3,6 +3,7 @@ import "./projects.css";
 import ProjectCard from "./project-card";
 import { ProjectData } from "../../../data/projects";
 import Separator from "../../common/separator/index";
+import Projectseperator from "../../common/projectseperator";
 function Projects() {
   const data = ProjectData;
   return (
@@ -14,6 +15,7 @@ function Projects() {
           return <ProjectCard project={project} />;
         })}
       </div>
+      
     </div>
   );
 }

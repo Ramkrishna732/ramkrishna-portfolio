@@ -1,8 +1,8 @@
 import React from "react";
+import Projectseperator from "../../common/projectseperator";
 import "./project-card.css";
 function ProjectCard({ project }) {
-  return (
-    <div className="project-card">
+  return (<div>    <div className="project-card">
       <div className="project-info">
         <label className="project-title">{project.title}</label>
         <div className="project-links">
@@ -29,11 +29,11 @@ function ProjectCard({ project }) {
           })}
         </div>
       </div>
-     
-      <img src={project.image} className="project-photo" alt="projectimage" />
       
+      <img src={project.image} className="project-photo" alt="projectimage" /></div>
+      <Projectseperator/>
+      </div>
 
-    </div>
   );
 }
 
