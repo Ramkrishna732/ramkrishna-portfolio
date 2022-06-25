@@ -7,7 +7,7 @@ function Testimonial() {
         <Separator/>
         <label className="section-title">Testimonial </label>
         <br></br>
-       <h3> Under development</h3>
+       <h3> Under development.</h3>
     </div>
   )
 }
