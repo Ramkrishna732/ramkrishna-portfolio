@@ -1,7 +1,8 @@
 import React from "react";
 import "./project-card.css";
+import Projetseparator from "../../common/projectSepretor/index";
 function ProjectCard({ project }) {
-  return (
+  return (<div>
     <div className="project-card">
       <div className="project-info">
         <label className="project-title">{project.title}</label>
@@ -27,13 +28,14 @@ function ProjectCard({ project }) {
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
           })}
+          
         </div>
       </div>
      
       <img src={project.image} className="project-photo" alt="projectimage" />
-      
+    
+    </div><Projetseparator/></div>
 
-    </div>
   );
 }
 
