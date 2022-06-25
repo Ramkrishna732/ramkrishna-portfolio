@@ -18,8 +18,7 @@ export const ProjectData = [
       "This is a restaurant finder project which have access to Zomato API using this we can find the restaurant to our nearby house and also having a rating of the restaurant",
     tags: [
       "ReactJs",
-      "NodeJs",
-      "Express",
+      
       "Zomato API"
     ],
     // demo: "",
