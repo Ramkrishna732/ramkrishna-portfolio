@@ -15,7 +15,7 @@ export const ProjectData = [
     id: 2,
     title: "Restaurant Finder",
     about:
-      "This is a restaurant finder project which have access to Zomato API using this we can find the restaurant to our nearby house and also having a rating of the restaurant",
+      "This is a restaurant finder project which have access to ZomatoAPI using this we can find the restaurant to our nearby house and also having a rating of the restaurant.Upcoming Feature Can search through Gps location",
     tags: [
       "ReactJs",
       
