@@ -1,4 +1,5 @@
 import React from "react";
+
 import SocialContact from "../../common/social-contact";
 import "./about.css";
 function About() {
@@ -18,6 +19,7 @@ function About() {
         </div>
       </div>
       <SocialContact />
+      
     </div>
   );
 }
