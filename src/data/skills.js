@@ -1,6 +1,6 @@
 export const SkillsData = [
   {
-    type: "Frontend",
+    type: "Frontends",
     list: [
       
       {
@@ -23,7 +23,7 @@ export const SkillsData = [
     ],
   },
   {
-    type: "Backend",
+    type: "Backends",
     list: [
       {
         name: "Java",
