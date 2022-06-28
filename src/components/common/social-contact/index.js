@@ -5,9 +5,9 @@ function SocialContact() {
   const data = SocialData;
   return (
     <div className="social-contact">
-      {data.map((item) => {
+      {data.map((item,soc) => {
         return (
-          <a href={item.link}>
+          <a  key={soc} href={item.link}>
             <div className="social-icon-div">
               <img src={item.icon} className="social-icon" />
             </div>

@@ -11,7 +11,7 @@ function TestimonialCard({ item }) {
                     <label>{item.name}</label>
                 </div>
                 <div className='testimonial-desc'>
-                    <p>{item.descriptions}</p>
+               <p> <i class="fa-solid fa-quote-left"></i><span> </span>{item.descriptions}</p>
                 </div>
 
             </div>

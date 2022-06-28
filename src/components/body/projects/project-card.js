@@ -1,8 +1,8 @@
 import React from "react";
 import Projectseperator from "../../common/projectseperator";
 import "./project-card.css";
-function ProjectCard({ project }) {
-  return (<div>    <div className="project-card">
+function ProjectCard({ project}) {
+  return (<div >    <div className="project-card" key={project.id}>
       <div className="project-info">
         <label className="project-title">{project.title}</label>
         <div className="project-links">
