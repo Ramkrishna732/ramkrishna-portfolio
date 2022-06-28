@@ -12,8 +12,9 @@ function Testimonial() {
         <Separator/>
         <label className="section-title">Testimonial</label>
       <div className="testimonial-list">
-        {data.map((item) => {
-          return <TestimonialCard item={item} />;
+        {data.map((item ,posss) => {
+              <label className="skills-section-title" key={posss}>{item.type}</label>
+              return <TestimonialCard key={posss}  item={item} />;
         })}
       </div>
     

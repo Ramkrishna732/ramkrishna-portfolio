@@ -10,8 +10,8 @@ function Work() {
       <Separator />
       <label className="section-title">Work</label>
       <div className="work-list">
-        {data.map((item) => {
-          return <WorkCard item={item} />;
+        {data.map((item,pos) => {
+          return <WorkCard key={pos}  item={item} />;
         })}
       </div>
     </div>

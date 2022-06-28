@@ -31,7 +31,7 @@ export const ProjectData = [
     id: 3,
     title: "ToDo-App",
     about:
-      "It is a ToDo App that generally used to maintain our day-to-day tasks or list everything that we have to do.It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed.",
+      "This is a ToDo App that generally used to maintain our day-to-day tasks or list everything that we have to do.It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed.",
     tags: [
       "ReactJs"
       
@@ -40,4 +40,18 @@ export const ProjectData = [
     github: "https://github.com/Ramkrishna732/todolist",
     image: require("../assets/image/todoapp.png"),
   },
+  {
+    id: 4,
+    title: "Crypto-Price-Checker-App",
+    about:
+      " This is a Cryptocurrency Price cheker app, By using React Hook and Axios we have fetch the data fron Coingeko public API, You will be able to search currencies and have it display on the browser. Also, the prices will update live whenever you refresh the page.",
+    tags: [
+      "ReactJs",
+      "Axios"
+      
+    ],
+     demo: "https://cryto-price-checker.netlify.app/",
+    github: "https://github.com/Ramkrishna732/Crypto_api_react-project",
+    image: require("../assets/image/cryto-app.png"),
+  }
 ];
