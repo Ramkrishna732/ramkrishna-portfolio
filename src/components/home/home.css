@@ -1,5 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -9,6 +10,7 @@ html {
   width: 70%;
   display: flex;
   flex-direction: column;
+  
 }
 
 @media only screen and (max-width: 1024px) {

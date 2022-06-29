@@ -1,5 +1,5 @@
 .about {
-  
+ /* background-color: rgba(255, 255, 255, 0.6); for background color*/
   padding-bottom: 48px;
 }
 .about-top {
@@ -15,7 +15,20 @@
 }
 .info-name {
   font-size: 32px;
-  color: blue;
+  font-weight: 700;
+
+}
+.green{
+  color: #048354;
+}
+.red{
+  color: #fc2015;
+}
+.blue{
+   color: #2077e9;
+}
+.yellow{
+ color:gold; 
 }
 @media only screen and (max-width: 720px) {
   .about-top {

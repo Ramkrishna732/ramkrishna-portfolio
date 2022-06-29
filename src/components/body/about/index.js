@@ -7,9 +7,8 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hello There 👋, I am <br />
-          <span className="info-name">Ramkrishna Maurya</span>.<br /> I love
-          experimenting with the web.
+        <span className="info-name green">Hello There 👋, I'm</span> <br />
+          <span className="info-name blue">Ramkrishna Maurya.</span><br /> <span className="info-name red">Developer</span><br/><span className="info-name yellow"> I love experimenting with the web.</span>
         </div>
         <div className="about-photo">
           <img
