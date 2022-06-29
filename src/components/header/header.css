@@ -24,7 +24,8 @@
   display: flex;
 
   font-size: 36px;
-  color: rgb(245, 17, 17);
+  color: 
+    #a745ea;
   font-weight: 800;
 }
 @media only screen and (max-width: 720px) {
