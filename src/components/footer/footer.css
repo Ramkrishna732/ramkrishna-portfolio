@@ -1,11 +1,12 @@
 .footer {
-  padding: 12px;
+  padding: 10px 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(236, 228, 255); 
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: rgb(214, 197, 255); 
   margin-top: 24px;
   border-radius: 4px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
