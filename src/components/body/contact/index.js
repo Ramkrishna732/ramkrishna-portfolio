@@ -13,9 +13,10 @@ function Contact() {
           <SocialContact />
         </div>
         <div className="download">
-          <a download href={require("../../../assets/resume.pdf")}>
-            <i class="fa-solid fa-download download-icon" />
-            Download Resume
+          <a  href={require("../../../assets/RamkrishnaMaurya_Resume.pdf")} target='_blank'>
+            
+            <i class="fa-solid fa-file download-icon"></i>
+            Resume
           </a>
         </div>
       </div>
